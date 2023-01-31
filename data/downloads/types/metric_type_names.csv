@@ -1,0 +1,118 @@
+MetricDisplayName,RawName,DatasetName
+Number Of Acute Hospital,acutehosp_cnt,dat_health_system_final.csv
+Total Number Of Hospitals,hosp_cnt,dat_health_system_final.csv
+Total Number Of Physicians,total_mds,dat_health_system_final.csv
+Total Number Of Primary Care Physicians,prim_care_mds,dat_health_system_final.csv
+Total Number Of Nurse Practitioners,total_nps,dat_health_system_final.csv
+Total Number Of Physician Assistants,total_pas,dat_health_system_final.csv
+Total Number Of Medical Groups,grp_cnt,dat_health_system_final.csv
+Total Number Of System-Affiliated Nursing Homes,nh_cnt,dat_health_system_final.csv
+Is Multi State,sys_multistate,dat_health_system_final.csv
+Number Of Beds Per System,sys_beds,dat_health_system_final.csv
+Number Of Discharges Per System,sys_dsch,dat_health_system_final.csv
+Number Of Interns And Residents Per System,sys_res,dat_health_system_final.csv
+Is Investor Owned,maj_inv_owned,dat_health_system_final.csv
+Degree To Which Health System Serves Children,deg_children,dat_health_system_final.csv
+Is Major Teaching Hospital,sys_incl_majteachhosp,dat_health_system_final.csv
+Is Very Major Teaching Hospital,sys_incl_vmajteachhosp,dat_health_system_final.csv
+Systemwide Teaching Intensity,sys_teachint,dat_health_system_final.csv
+Is Dsh Patient Percentage Hospital,sys_incl_highdpphosp,dat_health_system_final.csv
+Is Systemwide Uncompensated Care Burden,sys_highucburden,dat_health_system_final.csv
+Is High Uncompensated Care Burden,sys_incl_highuchosp,dat_health_system_final.csv
+Is System Includes Atleast One Acute Care Hospital Or  Owns Health Plan Or Partnership with Insurer,sys_anyins_product,dat_health_system_final.csv
+Is System Includes Atleast One Acute Care Hospital Or  Offers Ma Plan,sys_mcare_adv,dat_health_system_final.csv
+Is System Includes Atleast One Acute Care Hospital Or Offers Medicaid Managed Care Plan,sys_mcaid_mngcare,dat_health_system_final.csv
+Is System Includes Atleast One Acute Care Hospital Or Offers Health Insurance Marketplace Plan,sys_healthins_mktplc,dat_health_system_final.csv
+Count of Medicare Advantage Contract Numbers Offered By The System,sys_ma_plan_contracts,dat_health_system_final.csv
+Aggregated Medicare Advantage Enrollment,sys_ma_plan_enroll,dat_health_system_final.csv
+Is System Affiliated With Physicians Participating In Medicare Org,sys_apm,dat_health_system_final.csv
+Number Of System Affiliated With Physicians In Medicare Org,sys_aco,dat_health_system_final.csv
+Number Of System Affiliated With Physicians In Medicare Episode Based Payment Model,sys_ebpm,dat_health_system_final.csv
+Number Of System Affiliated With Physicians In Medicare Primary Care Transformation Models,sys_pctm,dat_health_system_final.csv
+Is Acute Hospital,acutehosp_flag,dat_hospital_final.csv
+Number Of Discharges For Hip Knee Replacement  For The Hospital,hk_number_of_discharges,dat_hospital_final.csv
+AMI,ami_excess_readmission_ratio,dat_hospital_final.csv
+Hospital Level Predicted Readmission Ratio For Hip Or Knee Replacement,hk_predicted_readmission_rate,dat_hospital_final.csv
+Hospital Level Expected Readmission Ratio For Hip Or Knee Replacement,hk_expected_readmission_rate,dat_hospital_final.csv
+Number Of Readmissions For Hip Or Knee Replacement,hk_number_of_readmissions,dat_hospital_final.csv
+Number Of Discharges For Cabg  For The Hospital,cabg_number_of_discharges,dat_hospital_final.csv
+AMI National Median,ami_excess_readmission_ratio_median,dat_hospital_final.csv
+Hospital Level Predicted Readmission Ratio For Cabg,cabg_predicted_readmission_rate,dat_hospital_final.csv
+Hospital Level Expected Readmission Ratio For Cabg,cabg_expected_readmission_rate,dat_hospital_final.csv
+Number Of Readmissions For Cabg,cabg_number_of_readmissions,dat_hospital_final.csv
+Number Of Discharges For Heart Attack  For The Hospital,ami_number_of_discharges,dat_hospital_final.csv
+CABG,cabg_excess_readmission_ratio,dat_hospital_final.csv
+Hospital Level Predicted Readmission Ratio For Heart Attack,ami_predicted_readmission_rate,dat_hospital_final.csv
+Hospital Level Expected Readmission Ratio For Heart Attack,ami_expected_readmission_rate,dat_hospital_final.csv
+Number Of Readmissions For Heart Attack,ami_number_of_readmissions,dat_hospital_final.csv
+Number Of Discharges For Heart Failure For The Hospital,hf_number_of_discharges,dat_hospital_final.csv
+CABG National Median,cabg_excess_readmission_ratio_median,dat_hospital_final.csv
+Hospital Level Predicted Readmission Ratio For Heart Failure,hf_predicted_readmission_rate,dat_hospital_final.csv
+Hospital Level Expected Readmission Ratio For Heart Failure,hf_expected_readmission_rate,dat_hospital_final.csv
+Number Of Readmissions For Heart Failure,hf_number_of_readmissions,dat_hospital_final.csv
+Number Of Discharges For Copd For The Hospital,copd_number_of_discharges,dat_hospital_final.csv
+COPD,copd_excess_readmission_ratio,dat_hospital_final.csv
+Hospital Level Predicted Readmission Ratio For Copd,copd_predicted_readmission_rate,dat_hospital_final.csv
+Hospital Level Expected Readmission Ratio For Copd,copd_expected_readmission_rate,dat_hospital_final.csv
+Number Of Readmissions For Copd,copd_number_of_readmissions,dat_hospital_final.csv
+Number Of Discharges For Pneumonia For The Hospital,pn_number_of_discharges,dat_hospital_final.csv
+COPD National Median,copd_excess_readmission_ratio_median,dat_hospital_final.csv
+Hospital Level Predicted Readmission Ratio For Pneumonia,pn_predicted_readmission_rate,dat_hospital_final.csv
+Hospital Level Expected Readmission Ratio For Pneumonia,pn_expected_readmission_rate,dat_hospital_final.csv
+Number Of Readmissions For Pneumonia,pn_number_of_readmissions,dat_hospital_final.csv
+Is In Hhrp,in_hrrp,dat_hospital_final.csv
+HF,hf_excess_readmission_ratio,dat_hospital_final.csv
+HF National Median,hf_excess_readmission_ratio_median,dat_hospital_final.csv
+Hip/Knee,hk_excess_readmission_ratio,dat_hospital_final.csv
+Hip/Knee National Median,hk_excess_readmission_ratio_median,dat_hospital_final.csv
+PN,pn_excess_readmission_ratio,dat_hospital_final.csv
+PN National Median,pn_excess_readmission_ratio_median,dat_hospital_final.csv
+Total Number Of Hospitals,num_hosp_tot,dat_state_final.csv
+Number Of Hospitals In System,num_hosp_in_sys,dat_state_final.csv
+Number Of Acute Hospital,num_acute_hosp,dat_state_final.csv
+Number Of Acute Hospital In System,num_acute_hosp_in_sys,dat_state_final.csv
+Number Of Hospital With Hospital Instate,num_sys_w_hosp_instate,dat_state_final.csv
+Number Of Hospital With Hq Instate,num_sys_hq_instate,dat_state_final.csv
+Percentage of Hospitals in Health Systems,pct_hosp_in_sys,dat_state_final.csv
+Percentage of Acute Care Hospitals in Health Systems,pct_acute_hosp_in_sys,dat_state_final.csv
+Percentage of Beds in Health Systems,pct_beds_in_sys,dat_state_final.csv
+Percentage of Discharges in Health Systems,pct_dsch_in_sys,dat_state_final.csv
+Percentage of Nurse Practitioners in Health Systems,np_pct_in_sys,dat_state_final.csv
+Percentage of Physician Assistants in Health Systems,pa_pct_in_sys,dat_state_final.csv
+AdmDrgLosAmeanLtNatlWtpct,adm_drg_los_amean_lt_natl_wtpct,rural_health_hospitals_consolidated.csv
+ReadmissionOtherHospCnt,Readmission_OtherHosp_Cnt,rural_health_hospitals_consolidated.csv
+AdmDrgLosGmeanLtNatlCnt,adm_drg_los_gmean_lt_natl_cnt,rural_health_hospitals_consolidated.csv
+DschDrgLosAmeanLtNatlWtpct,dsch_drg_los_amean_lt_natl_wtpct,rural_health_hospitals_consolidated.csv
+PauRev,pau_rev,rural_health_hospitals_consolidated.csv
+DschDrgLosGmeanLtNatlWtpct,dsch_drg_los_gmean_lt_natl_wtpct,rural_health_hospitals_consolidated.csv
+DschDrgLosAmeanLtNatlCnt,dsch_drg_los_amean_lt_natl_cnt,rural_health_hospitals_consolidated.csv
+ReadmissionThisHospCnt,Readmission_ThisHosp_Cnt,rural_health_hospitals_consolidated.csv
+EdAvoidablePmt,ed_avoidable_pmt,rural_health_hospitals_consolidated.csv
+PctEdInpAdmsn,pct_ed_inp_admsn,rural_health_hospitals_consolidated.csv
+DschDrgLosGmeanLtNatlCnt,dsch_drg_los_gmean_lt_natl_cnt,rural_health_hospitals_consolidated.csv
+PropPauRev,prop_pau_rev,rural_health_hospitals_consolidated.csv
+InpExp,Inp_Exp,rural_health_hospitals_consolidated.csv
+ReadmissionThisHospExp,Readmission_ThisHosp_Exp,rural_health_hospitals_consolidated.csv
+NonAvoidableEd,non_avoidable_ed,rural_health_hospitals_consolidated.csv
+DschDrgRank1InpCnt,dsch_drg_rank1_inp_cnt,rural_health_hospitals_consolidated.csv
+AdmDrgLosAmeanLtNatlCnt,adm_drg_los_amean_lt_natl_cnt,rural_health_hospitals_consolidated.csv
+InpEd,inp_ed,rural_health_hospitals_consolidated.csv
+PQI90Cnt,PQI90_Cnt,rural_health_hospitals_consolidated.csv
+HospHrr,hosp_hrr,rural_health_hospitals_consolidated.csv
+InpCnt,Inp_Cnt,rural_health_hospitals_consolidated.csv
+DschDrgRank1InpPct,dsch_drg_rank1_inp_pct,rural_health_hospitals_consolidated.csv
+AdmDrgRank1InpCnt,adm_drg_rank1_inp_cnt,rural_health_hospitals_consolidated.csv
+AvoidableEd,avoidable_ed,rural_health_hospitals_consolidated.csv
+ReadmissionOtherHospExp,Readmission_OtherHosp_Exp,rural_health_hospitals_consolidated.csv
+IndexAdmissionCnt,Index_Admission_Cnt,rural_health_hospitals_consolidated.csv
+PQI90Exp,PQI90_Exp,rural_health_hospitals_consolidated.csv
+ReadmissionSameDayCnt,Readmission_Same_Day_Cnt,rural_health_hospitals_consolidated.csv
+ObsStay,obs_stay,rural_health_hospitals_consolidated.csv
+AdmDrgRank1InpPct,adm_drg_rank1_inp_pct,rural_health_hospitals_consolidated.csv
+OtherEd,other_ed,rural_health_hospitals_consolidated.csv
+EdNonavoidablePmt,ed_nonavoidable_pmt,rural_health_hospitals_consolidated.csv
+TotalIPOPExp,Total_IP_OP_Exp,rural_health_hospitals_consolidated.csv
+OpEdVisit,op_ed_visit,rural_health_hospitals_consolidated.csv
+AdmDrgLosGmeanLtNatlWtpct,adm_drg_los_gmean_lt_natl_wtpct,rural_health_hospitals_consolidated.csv
+EdOtherPmt,ed_other_pmt,rural_health_hospitals_consolidated.csv
+OpEdPmt,op_ed_pmt,rural_health_hospitals_consolidated.csv

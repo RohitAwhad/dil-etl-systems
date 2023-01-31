@@ -1,0 +1,37 @@
+hsi_hsi_cat_columns = [
+    'IsMultistate',
+    'MajorityInvestorOwned',
+    'DegChildren',
+    'SysInclMajteachhosp',
+    'SysInclVmajteachhosp',
+    'SysTeachint',
+    'SysInclHighdpphosp',
+    'SysHighucburden',
+    'SysInclHighuchosp',
+    'SysAnyinsProduct',
+    'SysMcareAdv',
+    'SysMcaidMngcare',
+    'SysHealthinsMktplc',
+    'SysApm',
+]
+
+hsi_hsi_cont_columns = [
+    'TotalMds',
+    'PrimCareMds',
+    'AcutehospCnt',
+    'GrpCnt',
+    'HospCnt',
+    'NhCnt',
+    'PrimCareMds',
+    'SysAco',
+    'SysBeds',
+    'SysDsch',
+    'SysEbpm',
+    'SysMaPlanContracts',
+    'SysMaPlanEnroll',
+    'SysPctm',
+    'SysRes',
+    'TotalNps',
+    'TotalPas',
+]
+

@@ -1,0 +1,57 @@
+,StateTypeId,StateTypeName,StateAbbreviation
+0,1,Alabama,AL
+657,2,Alaska,AK
+908,4,Arizona,AZ
+1284,5,Arkansas,AR
+1902,6,California,CA
+3659,8,Colorado,CO
+4160,9,Connecticut,CT
+4436,10,Delaware,DE
+4504,11,District Of Columbia,DC
+4532,12,Florida,FL
+5504,13,Georgia,GA
+6240,15,Hawaii,HI
+6332,16,Idaho,ID
+6624,17,Illinois,IL
+7999,18,Indiana,IN
+8779,19,Iowa,IA
+9751,20,Kansas,KS
+10472,21,Kentucky,KY
+11271,22,Louisiana,LA
+11813,23,Maine,ME
+12228,24,Maryland,MD
+12694,25,Massachusetts,MA
+13213,26,Michigan,MI
+14200,27,Minnesota,MN
+15092,28,Mississippi,MS
+15539,29,Missouri,MO
+16579,30,Montana,MT
+16943,31,Nebraska,NE
+17533,32,Nevada,NV
+17691,33,New Hampshire,NH
+17929,34,New Jersey,NJ
+18533,35,New Mexico,NM
+18899,36,New York,NY
+20576,37,North Carolina,NC
+21385,38,North Dakota,ND
+21777,39,Ohio,OH
+22966,40,Oklahoma,OK
+23646,41,Oregon,OR
+24074,42,Pennsylvania,PA
+25850,44,Rhode Island,RI
+25922,45,South Carolina,SC
+26346,46,South Dakota,SD
+26736,47,Tennessee,TN
+27370,48,Texas,TX
+29308,49,Utah,UT
+29599,50,Vermont,VT
+29860,51,Virginia,VA
+30778,53,Washington,WA
+31365,54,West Virginia,WV
+32129,55,Wisconsin,WI
+32921,56,Wyoming,WY
+33103,60,American Samoa,AS
+33141,66,Guam,GU
+33169,69,Northern Mariana Islands,MP
+33236,72,Puerto Rico,PR
+33314,78,U.S. Virgin Islands,VI
