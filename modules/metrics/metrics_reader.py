@@ -28,7 +28,7 @@ def get_metric_name(value, col_dict):
 
 
 def add_metric_narrative_names(df_metrics):
-    names_df = pd.read_csv(get_output_path() + "types\\metric_type_names.csv")
+    names_df = pd.read_csv(get_output_path() + "types/metric_type_names.csv")
     names_df['RawName'] = names_df['RawName'].str.upper()
     df_metrics['MetricDisplayName'] = df_metrics.apply(
         lambda row: get_metric_narrative_name(row, names_df), axis=1)
