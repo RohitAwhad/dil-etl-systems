@@ -29,27 +29,27 @@ def read_config():
     config.read('configurations.ini')
     return config
 
-config = read_config()
-
-USER = config['SNOWFLAKE_SETTINGS']['USER']
-PASSWORD = config['SNOWFLAKE_SETTINGS']['PASSWORD']
-ACCOUNT = config['SNOWFLAKE_SETTINGS']['ACCOUNT']
-ROLE = config['SNOWFLAKE_SETTINGS']['ROLE']
-WAREHOUSE = config['SNOWFLAKE_SETTINGS']['WAREHOUSE']
-DATABASE = config['SNOWFLAKE_SETTINGS']['DATABASE']
-SCHEMA = config['SNOWFLAKE_SETTINGS']['SCHEMA']
-
-conn = snowflake.connector.connect(
-    user=USER,
-    password=PASSWORD,
-    account=ACCOUNT,
-    role=ROLE,
-    warehouse=WAREHOUSE,
-    database=DATABASE,
-    schema=SCHEMA
-)
-
-cs = conn.cursor()
+# config = read_config()
+#
+# USER = config['SNOWFLAKE_SETTINGS']['USER']
+# PASSWORD = config['SNOWFLAKE_SETTINGS']['PASSWORD']
+# ACCOUNT = config['SNOWFLAKE_SETTINGS']['ACCOUNT']
+# ROLE = config['SNOWFLAKE_SETTINGS']['ROLE']
+# WAREHOUSE = config['SNOWFLAKE_SETTINGS']['WAREHOUSE']
+# DATABASE = config['SNOWFLAKE_SETTINGS']['DATABASE']
+# SCHEMA = config['SNOWFLAKE_SETTINGS']['SCHEMA']
+#
+# conn = snowflake.connector.connect(
+#     user=USER,
+#     password=PASSWORD,
+#     account=ACCOUNT,
+#     role=ROLE,
+#     warehouse=WAREHOUSE,
+#     database=DATABASE,
+#     schema=SCHEMA
+# )
+#
+# cs = conn.cursor()
 
 def get_output_path_sf():
     dir = "data/downloads"
@@ -155,9 +155,9 @@ snowpark_session.udf.register(
 )
 
 def callMain():
-    cs.execute("CALL SNOWPARK_GENERATE_CSVPROC()")
-    cs.execute("CALL CREATE_TABLE_USING_STORED_PROCEDURE()")
-    cs.close()
+    snowpark_session.sql("CALL SNOWPARK_GENERATE_CSVPROC()").show()
+    snowpark_session.sql("CALL CREATE_TABLE_USING_STORED_PROCEDURE()").show()
+    snowpark_session.close()
     return "process executed successfully.."
 
 if __name__ == "__main__":
