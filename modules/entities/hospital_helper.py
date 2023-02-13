@@ -5,7 +5,7 @@ from modules.utilities.generic import os_helper
 from modules.metrics.metric_assignment_helper import filter_out_nulls
 from modules.utilities.aws.rds.create.row_inserter import load_table_from_df
 from modules.utilities.aws.rds.query.foreign_key_helper import  add_fk, add_fks
-
+import os
 
 
 def clean_hospitals(df):
