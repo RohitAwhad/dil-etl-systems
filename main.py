@@ -8,6 +8,6 @@ def main(overwrite=True, download=False):
 
 
 if __name__ == "__main__":
-    overwrite = True
-    download = False
+    overwrite = False
+    download = True
     main(overwrite, download)
