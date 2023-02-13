@@ -19,7 +19,7 @@ def get_hospital_config():
     config.entity_type_name = 'hospital'
     config.main_model = Hospital
     config.table_name = "Hospital"
-    config.raw_file_name = 'data\\downloads\\dat_hospital_final.csv'
+    config.raw_file_name = 'data/downloads/dat_hospital_final.csv'
     config.cols_to_rename = systems_hospital_cols_to_rename
     config.foreign_keys = [
         ForeignKey(CountyType, ['CountyTypeName'], custom_resource=county_type_dict),
