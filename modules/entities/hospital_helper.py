@@ -13,6 +13,10 @@ def clean_hospitals(df):
     df_ccn_hsi_lookup = df[['CcnId', "Hsi"]]
     df_ccn_hsi_lookup.dropna(inplace=True)
     output_path = os_helper.get_path(
+        "downloads/rural/2018") + "ccn_hsi_lookup.csv"
+    if os.name == "nt":
+        output_path = ""
+        output_path = os_helper.get_path(
         "downloads\\rural\\2018") + "ccn_hsi_lookup.csv"
     df_ccn_hsi_lookup.to_csv(output_path, index=False)
 
