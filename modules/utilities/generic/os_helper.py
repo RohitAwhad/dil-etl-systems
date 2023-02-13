@@ -10,7 +10,12 @@ def delete_file(path):
     os.remove(path)
     
 def get_path(dir):
-    dir = os.getcwd() + f"\\data\\{dir}\\"
+    tempDir =dir
+    dir = os.getcwd() + f"/data/{tempDir}/"
+    print(dir)
+    if os.name == "nt":
+        dir = ""
+        dir = os.getcwd() + f"\\data\\{tempDir}\\"
     if not os.path.exists(dir):
         os.makedirs(dir)
     return dir
