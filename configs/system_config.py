@@ -17,7 +17,7 @@ def get_system_config():
     config.entity_type_name = 'health_system'
     config.main_model = HealthSystem
     config.table_name = "HealthSystem"
-    config.raw_file_name = 'data\\downloads\\dat_health_system_final.csv'
+    config.raw_file_name = 'data/downloads/dat_health_system_final.csv'
     config.cols_to_rename = systems_health_system_cols_to_rename
     config.foreign_keys = [
         ForeignKey(StateType, ['StateAbbreviation']),
