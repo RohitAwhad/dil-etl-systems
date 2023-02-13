@@ -15,7 +15,7 @@ def get_state_config():
     config.entity_type_name = 'state'
     config.main_model = StateType
     config.table_name = "StateType"
-    config.raw_file_name = 'data\\downloads\\dat_state_final.csv'
+    config.raw_file_name = 'data/downloads/dat_state_final.csv'
     config.cols_to_rename = systems_state_cols_to_rename
     config.foreign_keys = []
     config.continuous_metrics = MetricColumn(StateTypeContinuousMetricAssignment,
